@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Grande Missão Felina - Jogo em HTML Puro</title>
+</head>
+<body>
+
+    <!-- ==========================================
+         CENA 1: ENTRADA DA CASA (INÍCIO)
+    =========================================== -->
+    <section id="inicio">
+        <header>
+            <h1>🐾 Caça ao Tesouro Felino: O Mistério do Sachê Dourado! 🐾</h1>
+            <h2>Você é <em>Lorde Bigodes</em>, um gato preto muito esperto, e sua missão é encontrar comida nesta mansão gótica.</h2>
+        </header>
+
+        <fieldset>
+            <legend><strong>📊 Status do Gato</strong></legend>
+            <p>
+                <strong>Saciedade:</strong> <meter min="0" max="100" low="30" high="80" optimum="100" value="15">15%</meter> (Morrendo de fome!) | 
+                <strong>Curiosidade:</strong> <progress value="20" max="100">20%</progress>
+            </p>
+        </fieldset>
+
+        <figure>
+            <img src="https://loremflickr.com/500/300/black,cat?lock=1" alt="Gato preto olhando atentamente" width="500" height="300">
+            <figcaption><small>Lorde Bigodes planejando sua invasão noturna.</small></figcaption>
+        </figure>
+
+        <p>Você está em frente a uma misteriosa casa gótica. Sua barriga está roncando alto. Antes de escolher por onde entrar, que tal dar uma olhada ao redor?</p>
+
+        <details>
+            <summary><strong>🔍 Farejar o tapete de boas-vindas (Clique para investigar)</strong></summary>
+            <blockquote>
+                <p>Você cheira o tapete e encontra uma pista anotada em um papel amassado: <em>"Nota mental: Escondi a chave da despensa onde estudo programação durante a semana."</em></p>
+            </blockquote>
+        </details>
+
+        <br>
+
+        <details>
+            <summary><strong>🐾 Arranhar o vaso de plantas</strong></summary>
+            <blockquote>
+                <p><em>Miaau!</em> Uma borboleta sai voando, mas não há nada de comer aqui.</p>
+            </blockquote>
+        </details>
+
+        <h3>Suas opções de entrada são:</h3>
+        <ul>
+            <li>🚪 Entrar sorrateiramente pela <a href="#sala"><strong>porta da frente</strong></a> (está entreaberta).</li>
+            <li>🪟 Dar um salto acrobático pela <a href="#quarto_gotico"><strong>janela do andar de cima</strong></a>.</li>
+            <li>🕳️ Espremer-se pela <a href="#porao"><strong>grade quebrada do porão</strong></a>.</li>
+        </ul>
+    </section>
+
+    <hr size="10" noshade>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- ==========================================
+         CENA 2: SALA DE ESTAR
+    =========================================== -->
+    <section id="sala">
+        <h2>🛋️ Sala de Estar Gótica</h2>
+
+        <fieldset>
+            <legend><strong>📊 Status do Gato</strong></legend>
+            <p>
+                <strong>Saciedade:</strong> <meter min="0" max="100" low="30" high="80" optimum="100" value="30">30%</meter> | 
+                <strong>Progresso na Mansão:</strong> <progress value="40" max="100">40%</progress>
+            </p>
+        </fieldset>
+
+        <figure>
+            <img src="https://loremflickr.com/500/300/livingroom,dark?lock=2" alt="Sala de estar antiga" width="500" height="300">
+            <figcaption><small>A sala é grande, escura e cheia de móveis ótimos para afiar as unhas.</small></figcaption>
+        </figure>
+
+        <p>Você pisou no tapete macio da sala da casa. Há um cheiro leve de ração vindo do corredor, mas também há coisas interessantes aqui.</p>
+
+        <details>
+            <summary><strong>🔍 Vasculhar embaixo do sofá</strong></summary>
+            <blockquote>
+                <p>Você encontrou um <strong>Ratinho de Brinquedo</strong> e uma bola de pelos antiga! Nada comestível, mas foi divertido.</p>
+            </blockquote>
+        </details>
+
+        <br>
+
+        <details>
+            <summary><strong>🔍 Subir na mesinha de centro</strong></summary>
+            <blockquote>
+                <p>Há um copo de água cheio bem na beirada... <ins>Você empurra o copo com a patinha e ele cai no chão!</ins> <em>CRASH!</em> Que satisfação felina!</p>
+            </blockquote>
+        </details>
+
+        <h3>Para onde você vai agora?</h3>
+        <ul>
+            <li>🍲 Seguir o cheiro bom até a <a href="#cozinha"><strong>cozinha</strong></a> pelo corredor.</li>
+            <li>🛏️ Subir as escadas para o <a href="#quarto_gotico"><strong>quarto gótico</strong></a>.</li>
+            <li>📚 Entrar na <a href="#biblioteca"><strong>biblioteca dos humanos</strong></a>.</li>
+            <li>🌳 Sair correndo pela <a href="#inicio"><strong>porta da frente</strong></a> de volta para o jardim.</li>
+        </ul>
+    </section>
+
+    <hr size="10" noshade>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- ==========================================
+         CENA 3: QUARTO GÓTICO (ESCRIVANINHA COM TABELA)
+    =========================================== -->
+    <section id="quarto_gotico">
+        <h2>🛏️ O Quarto Gótico do Estudante</h2>
+
+        <fieldset>
+            <legend><strong>📊 Status do Gato</strong></legend>
+            <p>
+                <strong>Saciedade:</strong> <meter min="0" max="100" low="30" high="80" optimum="100" value="25">25%</meter> | 
+                <strong>Progresso na Mansão:</strong> <progress value="50" max="100">50%</progress>
+            </p>
+        </fieldset>
+
+        <figure>
+            <img src="https://loremflickr.com/500/300/bedroom,cat?lock=3" alt="Quarto com cama grande" width="500" height="300">
+            <figcaption><small>Um quarto silencioso. O humano não está aqui no momento.</small></figcaption>
+        </figure>
+
+        <p>Opa! Não há nenhuma comida dando sopa por aqui. Porém, em cima da escrivaninha, você vê o cronograma de estudos do seu humano:</p>
+
+        <!-- Tabela aprimorada baseada no seu arquivo table.html -->
+        <table border="1" cellpadding="8" cellspacing="0">
+            <caption><strong>📅 Cronograma Semanal do Humano (Pista Importante!)</strong></caption>
+            <thead>
+                <tr>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                    <th>Sábado</th>
+                    <th>Domingo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Estudar CSS</td>
+                    <td>Revisar HTML</td>
+                    <td>Estudar Redes</td>
+                    <td>Estudar LP1</td>
+                    <td>Estudar Espaço Vetorial</td>
+                    <td>Estudar Derivadas</td>
+                    <td>Revisar Engenharia <br><small><em>(Dia de comprar sachê!)</em></small></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <details>
+            <summary><strong>🔍 Olhar atrás do monitor do computador</strong></summary>
+            <blockquote>
+                <p>🔑 <strong>MIAU!</strong> Você encontrou uma <strong>Chave Dourada</strong> escondida junto a um bilhete que diz: <em>"A Porta A na cozinha guarda o grande prêmio, mas cuidado com a Porta C!"</em></p>
+            </blockquote>
+        </details>
+
+        <h3>Suas opções são:</h3>
+        <ul>
+            <li>🚪 Avançar pela porta do quarto para a <a href="#sala"><strong>sala da casa</strong></a>.</li>
+            <li>🪟 Pular de volta pela janela para a <a href="#inicio"><strong>entrada da casa</strong></a>.</li>
+        </ul>
+    </section>
+
+    <hr size="10" noshade>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- ==========================================
+         CENA 4: BIBLIOTECA (COM FORMULÁRIO DO GOOGLE)
+    =========================================== -->
+    <section id="biblioteca">
+        <h2>📚 Biblioteca e Escritório</h2>
+
+        <figure>
+            <img src="https://loremflickr.com/500/300/cat,computer?lock=4" alt="Gato na frente do computador" width="500" height="300">
+            <figcaption><small>O notebook do humano está ligado e aberto no navegador!</small></figcaption>
+        </figure>
+
+        <p>Você pula na cadeira giratória. Como você é um gato muito moderno, pode caminhar sobre o teclado para pesquisar segredos na internet!</p>
+
+        <!-- Formulário aprimorado baseado no seu arquivo forms.html -->
+        <fieldset>
+            <legend><strong>💻 Computador do Humano (Pesquisa Real no Google)</strong></legend>
+            <form action="https://www.google.com/search" method="GET" target="_blank">
+                <label for="busca_felina"><strong>Sobre o que você quer saber, gatinho?</strong></label><br><br>
+                <input type="text" id="busca_felina" name="q" placeholder="Ex: onde humanos escondem sachê" size="40" required>
+                <button type="submit">🐾 Pesquisar no Google (Abre em nova aba)</button>
+            </form>
+        </fieldset>
+
+        <h3>Depois de usar a internet, para onde ir?</h3>
+        <ul>
+            <li>🛋️ Voltar para a <a href="#sala"><strong>sala de estar</strong></a>.</li>
+            <li>🍲 Ir direto para a <a href="#cozinha"><strong>cozinha</strong></a>.</li>
+        </ul>
+    </section>
+
+    <hr size="10" noshade>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- ==========================================
+         CENA 5: COZINHA
+    =========================================== -->
+    <section id="cozinha">
+        <h2>🍳 A Cozinha Principal</h2>
+
+        <fieldset>
+            <legend><strong>📊 Status do Gato</strong></legend>
+            <p>
+                <strong>Saciedade:</strong> <meter min="0" max="100" low="30" high="80" optimum="100" value="50">50%</meter> (O cheiro está forte!) | 
+                <strong>Progresso na Mansão:</strong> <progress value="80" max="100">80%</progress>
+            </p>
+        </fieldset>
+
+        <figure>
+            <img src="https://loremflickr.com/500/300/kitchen,cat?lock=5" alt="Cozinha da casa" width="500" height="300">
+            <figcaption><small>Tantos armários e portas... A comida só pode estar perto daqui!</small></figcaption>
+        </figure>
+
+        <p>Você está na cozinha! O aroma de salmão fresco está deixando seus bigodes tremendo de emoção.</p>
+
+        <details>
+            <summary><strong>🔍 Subir no balcão da pia</strong></summary>
+            <blockquote>
+                <p>🥒 <strong>SUSTO!</strong> Há um <strong>PEPINO</strong> em cima da pia! Você dá um pulo de dois metros de altura de tanto susto, mas recupera a pose rapidamente.</p>
+            </blockquote>
+        </details>
+
+        <h3>Você vê três portas misteriosas e o corredor. Suas opções são:</h3>
+        <ul>
+            <li>🛋️ Voltar para a <a href="#sala"><strong>sala de estar</strong></a>.</li>
+            <li>🚪 Entrar na <a href="#porta_a"><strong>Porta A</strong></a> (Há um desenho de peixinho na maçaneta).</li>
+            <li>🚪 Entrar na <a href="#porta_b"><strong>Porta B</strong></a> (Faz barulho de água pingando).</li>
+            <li>🚪 Entrar na <a href="#porta_c"><strong>Porta C</strong></a> (Você ouve um ronco grave vindo de lá...).</li>
+        </ul>
+    </section>
+
+    <hr size="10" noshade>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- ==========================================
+         CENA 6: PORTA B (BANHEIRO)
+    =========================================== -->
+    <section id="porta_b">
+        <h2>🛁 O Banheiro (Porta B)</h2>
+
+        <figure>
+            <img src="https://loremflickr.com/500/300/bathroom,cat?lock=6" alt="Banheiro" width="500" height="300">
+            <figcaption><small>Cuidado para não cair na banheira cheia d'água!</small></figcaption>
+        </figure>
+
+        <p>Você está no banheiro! Definitivamente não há ração aqui, e você odeia tomar banho.</p>
+
+        <details>
+            <summary><strong>🧻 Brincar com o rolo de papel higiênico</strong></summary>
+            <blockquote>
+                <p>Você gira o rolo com as patas até desenrolar absolutamente tudo pelo chão. Missão secundária cumprida com sucesso!</p>
+            </blockquote>
+        </details>
+
+        <h3>Opções:</h3>
+        <ul>
+            <li>🏃‍♂️ Voltar rápido para a <a href="#cozinha"><strong>cozinha</strong></a> antes que alguém ligue o chuveiro!</li>
+        </ul>
+    </section>
+
+    <hr size="10" noshade>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- ==========================================
+         CENA 7: PORTA C / PORÃO (ARMADILHA DO CACHORRO)
+    =========================================== -->
+    <section id="porta_c">
+        <div id="porao">
+            <h2>🐶 O Covil da Fera! (Fim de Jogo Trágico)</h2>
+
+            <fieldset>
+                <legend><strong>📊 Status do Gato</strong></legend>
+                <p>
+                    <strong>Saciedade:</strong> <meter min="0" max="100" low="30" high="80" optimum="100" value="0">0%</meter> | 
+                    <strong>Nível de Perigo:</strong> <progress value="100" max="100">100%</progress> MÁXIMO!
+                </p>
+            </fieldset>
+
+            <figure>
+                <img src="https://loremflickr.com/500/300/dog,sleeping?lock=7" alt="Cachorro grande" width="500" height="300">
+                <figcaption><small>Brutus, o cão de guarda da casa, acabou de abrir um olho!</small></figcaption>
+            </figure>
+
+            <p><strong>OH NÃO!</strong> Você entrou no lugar errado e acordou o cachorro gigante da família! Ele começa a latir: <em>"AU! AU! AU!"</em></p>
+            <p>Você arrepia todos os pelos das costas e precisa fugir imediatamente!</p>
+
+            <h3>Opções de Emergência:</h3>
+            <ul>
+                <li>🔄 <a href="#inicio"><strong>Fugir para fora da casa e tentar novamente desde o início!</strong></a></li>
+                <li>🍳 <a href="#cozinha"><strong>Dar um drible no cachorro e voltar correndo para a cozinha!</strong></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <hr size="10" noshade>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- ==========================================
+         CENA 8: PORTA A (VITÓRIA!)
+    =========================================== -->
+    <section id="porta_a">
+        <h1>🏆 PARABÉNS! VOCÊ ENCONTROU O PARAÍSO FELINO! 🏆</h1>
+
+        <fieldset>
+            <legend><strong>📊 Status do Gato</strong></legend>
+            <p>
+                <strong>Saciedade:</strong> <meter min="0" max="100" low="30" high="80" optimum="100" value="100">100%</meter> (Barriga cheia!) | 
+                <strong>Missão Concluída:</strong> <progress value="100" max="100">100%</progress>
+            </p>
+        </fieldset>
+
+        <figure>
+            <img src="https://loremflickr.com/600/400/cat,eating?lock=8" alt="Gato comendo feliz" width="600" height="400">
+            <figcaption><small>Lorde Bigodes saboreando seu banquete real.</small></figcaption>
+        </figure>
+
+        <p>🎉 <strong>Vitória!</strong> Você encontrou o quarto secreto com o comedouro cheio de ração premium e um sachê de salmão fresquinho!</p>
+        <p>Depois de comer tudo, você se enrola em uma almofada macia e começa a ronronar: <em>Prrrrrrr... Prrrrrrr...</em></p>
+
+        <hr>
+
+        <h3>📝 Livro de Honra dos Gatos Aventureiros</h3>
+        <p>Deixe seu registro de vitória antes de tirar sua soneca:</p>
+        <form action="#inicio" method="GET">
+            <p>
+                <label for="nome_gato">Nome do seu Gato:</label><br>
+                <input type="text" id="nome_gato" name="gato" placeholder="Ex: Frajola" required>
+            </p>
+            <p>
+                <label for="sabor">Qual seu sabor de ração favorito?</label><br>
+                <select id="sabor" name="sabor">
+                    <option value="salmao">Salmão Supremo</option>
+                    <option value="frango">Frango Crocante</option>
+                    <option value="atum">Atum Real</option>
+                    <option value="carne">Carne ao Molho</option>
+                </select>
+            </p>
+            <button type="submit">🔄 Salvar e Jogar Novamente</button>
+        </form>
+
+        <br>
+        <p>Ou, se preferir continuar explorando: voltar para a <a href="#cozinha"><strong>cozinha</strong></a>.</p>
+    </section>
+
+</body>
+</html>
